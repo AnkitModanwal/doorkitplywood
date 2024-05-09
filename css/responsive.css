@@ -1,0 +1,292 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Responsive Stylesheet
+Project:    Faucets-Washroom & Kitchen Interior Responsive Template
+Author:     Syed Mehdi Hasan
+Author URI: http://hmehdi.com/
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++ Table of contents +++++++++
+		1. Desktop
+		2. Tablet Landscape
+		3. Tablet Portrait
+		4. Phone
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/* -------------------------------
+   desktop
+   ------------------------------- */
+@media screen and (max-width: 1199px) {
+.about-inner-content {
+    padding-top: 70px;
+}
+.about-inner-content h5 {
+    font-size: 14px;
+}
+.about-inner-content p {
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 10px;
+}  
+}
+/* -------------------------------
+   Tablet Landscape
+   ------------------------------- */
+@media screen and (max-width: 992px) {
+.nav > li > a {
+    padding: 10px 8px;
+    font-size: 11px;
+}
+.logo-area {
+    margin-top: 5px;
+}
+.logo-area img {
+    width: 130px;
+}
+.slider-wrapper .slider-text h4 {
+    font-size: 30px;
+}
+.slider-wrapper .slider-text h5 {
+    font-size: 13px;
+}
+.about-images img {
+    width: 100%;
+}
+.about-contents h5 {
+    font-size: 14px;
+}
+.about-contents p {
+    font-size: 12px;
+    line-height: 19px;
+    padding-bottom: 10px;
+}
+.about-contents ul li a.button-1 {
+    font-size: 10px;
+    padding: 8px 20px;
+}
+.quote-text a.button-1 {
+    font-size: 10px;
+    padding: 10px 18px;
+}
+.about-inner-content-img img {
+    width: 100%;
+}
+.about-inner-content {
+    padding-top: 50px;
+}
+.about-inner-content h5 {
+    font-size: 14px;
+}
+.about-inner-content p {
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.error-heading h2 {
+    font-size: 140px;
+}
+.coming-soon-text {
+    padding: 0px 0px;
+}
+.header-contact .navbar-right {
+    margin-right: 5px;
+}
+}
+/* -------------------------------
+   Tablet Portrait
+   ------------------------------- */
+@media screen and (max-width: 767px) {
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+}
+.menu-area {
+    margin-top: -45px;
+}
+.logo-area img {
+    position: relative;
+    z-index: 9;
+}
+.navbar-nav {
+    float: left;
+    text-align: left;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    background-color: rgba(20, 38, 78, 0.78);
+}
+.slider-wrapper .slider-text h4 {
+    font-size: 20px;
+}
+.slider-wrapper .slider-text h5 {
+    font-size: 16px;
+    padding: 0px 15%;
+    line-height: 24px;
+}
+.about-contents ul li a.button-1 {
+    font-size: 10px;
+    padding: 6px 26px;
+    margin-bottom: 10px;
+}
+.about-images {
+    text-align: center;
+}
+.about-images img {
+    float: none;
+    width: 80%;
+    margin-top: 15px;
+}
+.quote-text {
+    text-align: center;
+}
+.quote-text h5 {
+    line-height: 20px;
+}
+.quote-text p {
+    font-size: 14px;
+}
+.quote-text a.button-1 {
+    float: none;
+}
+.single-steps {
+    margin-bottom: 50px;
+}
+.steps-content .col-md-3.col-sm-3:last-child .single-steps {
+    margin-bottom: 0px;
+}
+ul.footer-info li {
+    padding-bottom: 10px;
+}
+ul.footer-info li:last-child {
+    padding-bottom: 0px;
+}
+.footer-content ul.social-info li {
+    padding: 8px;
+}
+.single-client {
+    margin-bottom: 20px;
+}
+.page-name {
+    text-align: center;
+}
+.page-name ul {
+    float: none;
+	padding-top: 20px;
+}
+.page-name h6 {
+    font-size: 26px;
+}
+.page-name p {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.about-inner-content-img {
+	text-align: center;
+}
+.about-inner-content-img img {
+    float: none;
+    width: 70%;
+}
+.products-content {
+    padding-top: 20px;
+}
+.error-heading h2 {
+    border-right: none;
+    border-bottom: 1px solid #e6e6e6;
+	text-align: center
+}
+.coming-soon-text {
+    padding: 0px 0px;
+}
+.coming-soon-text h4 {
+    font-size: 24px;
+}
+.coming-soon-text p {
+    font-size: 10px;
+    line-height: 25px;
+}
+.header-contact ul li:before {
+    left: 7px;
+}
+.header-contact ul li {
+    padding-left: 20px;
+}
+.input-field {
+    width: 100%;
+}
+.contact-contacts {
+    margin-top: 20px;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+.slider-wrapper .owl-dots {
+    bottom: 20px;
+}
+.single-client {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.single-client img {
+    width: 60%;
+}
+.slider-wrapper .slider-text {
+    top: 30vh;
+}
+.slider-wrapper .slider-text h5 {
+    font-size: 16px;
+    margin-top: 8px;
+}
+.slider-wrapper .slider-text a.view-link {
+    margin-top: 10px;
+}
+section#page-title-section {
+    height: 75vh;
+}
+}
+/* -------------------------------
+   Phone
+   ------------------------------- */
+@media screen and (max-width: 479px) {
+.slider-wrapper .slider-text h4 {
+    font-size: 14px;
+}
+.slider-wrapper .slider-text h5 {
+    font-size: 10px;
+    padding: 0px 15%;
+    line-height: 18px;
+}
+.slider-wrapper .slider-text a.view-link {
+    padding: 7px 40px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.slider-wrapper .owl-next {
+    margin-right: 10px !important;
+}
+.slider-wrapper .owl-prev {
+    margin-right: 10px !important;
+}
+.about-contents h5 {
+    font-size: 14px;
+}
+.about-images img {
+    width: 100%;
+}
+.about-inner-content-img img {
+    width: 100%;
+}
+ul.filters li {
+    padding: 5px 15px;
+}
+h4.panel-title a {
+    font-size: 9px;
+    text-align: left;
+}
+.coming-soon-text h4 {
+    font-size: 20px;
+}
+}
